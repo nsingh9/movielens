@@ -1,0 +1,28 @@
+---
+title: "Movie Lens Report"
+author: "Navdeep Singh"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Motivation
+
+According to unesco.org [article](http://uis.unesco.org/en/news/record-number-films-produced), 7610 films were released around the world in 2013. Since then that number has been growing swiftly. Because of this tremendous collection of movies, it has been a constant struggle for a person to find a film which suites his taste.
+
+A recommender system or a recommendation system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. In this project the items are movies.
+
+Recommender systems are utilized in a variety of areas including movies, music, news, books, research articles, search queries, social tags, and products in general. There are also recommender systems for experts collaborators, jokes, restaurants, garments, financial services, life insurance, romantic partners (online dating), and Twitter page. Major companies such as Amazon, Netflix and Spotify utilize recommendation systems. A strong recommendation system was of such importance that in 2006, Netflix offered a million dollar prize to anyone who could improve the effectiveness of its recommendation system by 10%.
+
+It should be noted that the winning Netflix model utilized an ensemble of very complex models, and the team spent several months perfecting the ensemble. While they 
+won the first prize, no mention is made that can be publicly found as to the level of predictive accuracy, as their goal was not to predict ratings but merely 
+recommend movies likely to be enjoyed by a user. Thus the Netflix problem and our own challenge is very much different in its goals.
+
+## DataSet
+
+Dataset used while writing this algorithm for the movie pridictor can be found here:
+
+- [MovieLens 10M dataset] https://grouplens.org/datasets/movielens/10m/
+- [MovieLens 10M dataset - zip file] http://files.grouplens.org/datasets/movielens/ml-10m.zip
